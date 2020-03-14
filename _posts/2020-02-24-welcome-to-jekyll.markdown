@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to The Numbers Clinic!"
+title:  "Welcome to Help the Helper!"
 date:   2020-02-24 15:04:02 -0700
 categories: jekyll update
 permalink: /welcome
 ---
-Welcome to The Numbers Clinic where I mostly ramble about numbers involved in basketball and medicine.
+Welcome to Help the Helper where I mostly ramble about numbers involved in basketball and medicine.
