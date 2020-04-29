@@ -29,7 +29,9 @@ characters_list = ['Mario', 'Diddy Kong', 'Waluigi', 'Boom Boom']
 Lists are Python objects that let us store things in a convenient location so we can find them later. It's like when you go to a store with a list written down so you can remember what you need.
 > Bananas, OJ, yogurt, Chewbacca onesie pajamas
 
-![Chewbacca](https://thumbor.forbes.com/thumbor/711x474/https://specials-images.forbesimg.com/dam/imageserve/958761228/960x0.jpg?fit=scale)One nice thing about lists is that you are able to add and remove things from them. Adding to a list is also known as 'appending.' 
+![Chewbacca](https://thumbor.forbes.com/thumbor/711x474/https://specials-images.forbesimg.com/dam/imageserve/958761228/960x0.jpg?fit=scale)
+
+One nice thing about lists is that you are able to add and remove things from them. Adding to a list is also known as 'appending.' 
 ```
 characters_list.append('Luigi')
 ```
