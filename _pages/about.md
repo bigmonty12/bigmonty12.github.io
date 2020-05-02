@@ -8,4 +8,4 @@ I grew up in Atlanta, Georgia where I attended [Lakeview Academy](https://www.la
 
 ---
 ![Austin Montgomery](/assets/photos/basketball_pumped.jpeg)
-*This is how excited I am to work in science and medicine*
+*Me, excited about science and sports*
