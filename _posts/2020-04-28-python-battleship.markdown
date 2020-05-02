@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Python for Beginners: Battleship"
 date: 2020-04-27 19:55:00 -0700
 categories: jekyll beginner-python

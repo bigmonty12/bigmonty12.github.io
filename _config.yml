@@ -1,19 +1,49 @@
-title: Help the Helper
-email: austinbrucemontgomery@gmail.com
-description: Pseudorandom thoughts about basketball, medicine, and numbers.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "bigmonty12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Theme settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+# Site Settings
+locale:	"en-US"
+title:	"Help the Helper"
+subtitle: "Thoughts and projects regarding numbers, basketball, and medicine"
+url: "bigmonty12.github.io" 
 twitter_username: bigmonty12
 github_username:  bigmonty12
+name: "Austin Montgomery"
+words_per_minute: 200
 
-use_math: true
+# Site Author
+author:
+   name: "Austin Montgomery"
+   avatar: "/assets/photos/montgomery_headshot.jpeg"
+   bio: "Former college basketball player. Future physician-scientist."
+   location: "Salt Lake City, UT"
+   links:
+     - label: "Email"
+       icon: "fas fa-fw fa-envelope-square"
+       url: mailto:austinbrucemontgomery@gmail.com
+     - label: "Twitter"
+       icon: "fab fa-fw fa-twitter-square"
+       url: "https://twitter.com/bigmonty12"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/bigmonty12?tab=repositories" 
 
-# Build settings
-theme: minima
+# Site Footer
+footer:
+   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bigmonty12"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bigmonty12?tab=repositories" 
+
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-github-metadata
+
+use_math: true
 
 titles_from_headings:
    enabled:	true
@@ -28,6 +58,31 @@ kramdown:
    auto_ids: true
    hard_wrap: false
    syntax_highlighter: rouge
+
+defaults:
+   # _posts
+   - scope:
+      path: ""
+      type: posts
+     values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+   # _pages
+   - scope:
+      path: ""
+      type: pages
+     values:
+      layout: single
+      author_profile: true
+
+# Reading Files
+include:
+   - _pages
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

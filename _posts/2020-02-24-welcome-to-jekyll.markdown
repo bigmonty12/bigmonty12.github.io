@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Help the Helper!"
 date:   2020-03-13 15:04:02 -0700
 categories: jekyll update
