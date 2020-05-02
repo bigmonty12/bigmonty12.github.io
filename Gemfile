@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-
+gem "activesupport", ">= 4.1.11"
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
