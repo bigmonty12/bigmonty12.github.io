@@ -1,5 +1,5 @@
 # Theme settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site Settings
@@ -73,6 +73,7 @@ titles_from_headings:
    strip_title:	true
    collections:	true
 
+# Conversion
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -104,7 +105,26 @@ defaults:
 
 # Reading Files
 include:
+   - .htaccess
    - _pages
+exclude:
+   - Rakefile
+   - package.json
+   - package-lock.json
+   - assets/js/plugins
+   - assets/js/_main.js
+   - assets/js/vendor
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Sass/SCSS
 sass:
@@ -123,15 +143,3 @@ paginate_path: /page:num/
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
