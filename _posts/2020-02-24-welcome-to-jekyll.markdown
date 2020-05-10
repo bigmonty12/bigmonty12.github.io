@@ -2,7 +2,7 @@
 layout: single
 title:  "Welcome to Help the Helper!"
 date:   2020-03-13 15:04:02 -0700
-categories: jekyll update
+categories: welcome basketball medicine
 permalink: /welcome
 ---
 Welcome to Help the Helper where I mostly ramble about numbers involved in basketball and medicine. Help the helper is a basketball defensive term used to describe the teamwork that it takes to play good team defense. A good defensive player isn't just a good one-on-one defender; they also are always in position to help their teammates stop the offense get an open shot. When a teammate leaves their opponent to go help another teammate, it's imperative that someone else rotates to the now open player. This is seen most often on drives where the opposite defender has to "step up" to stop the drive as in the video below. This concept is what makes quantifying the quality of defenders impossible (at least so far) in the basketball analytics world.

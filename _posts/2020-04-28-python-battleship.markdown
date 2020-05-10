@@ -2,7 +2,7 @@
 layout: single
 title: "Python for Beginners: Battleship"
 date: 2020-04-27 19:55:00 -0700
-categories: jekyll beginner-python
+categories: games beginner-python
 permalink: /battleship
 ---
 At the start of the Covid-19 pandemic, my friend [Avery](https://averydata.github.io/) had an idea to create videos to help beginners learn about Python. He chose common games as the avenue to explore and started by coding a simple game of [Rock, Paper, Scissors](https://www.youtube.com/watch?v=shXi_H54K-M&t=2s). I thought it was a pretty neat idea, and Avery agreed to let me join in his efforts! This is the first 'lesson' I developed. I have made some tweaks since I presented it on [video](https://www.youtube.com/watch?v=e8eFGRgZRiU) as I thought more about how to expand the game. I'll start posting each notebook and video as we make these videos!
