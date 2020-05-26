@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Python for Beginners: Candyland"
+title: "Python for Beginners: Candy Land"
 date: 2020-05-10 19:55:00 -0700
 categories: games beginner-python
 permalink: /candyland
