@@ -112,6 +112,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _til
+  - scope:
+      path: ""
+      type: til
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+collections:
+  til:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid
