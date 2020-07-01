@@ -3,6 +3,7 @@ layout: single
 title: "About Me"
 header:
   overlay_image: /assets/photos/zion-about.jpg
+  caption: "Source: photoserge.com / flickr"
 permalink: /about/
 author_profile: true
 ---
