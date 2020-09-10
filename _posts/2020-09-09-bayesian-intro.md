@@ -20,9 +20,9 @@ Three common Bayesian terms we see quite often are Prior, Likelihood, and Poster
 
 Prior *p(H)*: probability of target **before** measurement; essentially, what we think the probability of the hypothesis is **before** data.
 
-Likelihood *p(D|H)*: probability of measurement given target; the likelihood is the probability of the recorded data given that the hypothesis is true
+Likelihood *p(D\|H)*: probability of measurement given target; the likelihood is the probability of the recorded data given that the hypothesis is true
 
-Posterior *p(H|D)*: probability of target **after** measurement; the posterior is our new probability of the hypothesis given the new recorded data.
+Posterior *p(H\|D)*: probability of target **after** measurement; the posterior is our new probability of the hypothesis given the new recorded data.
 
 ## Conceptual introduction: What is Bayesian inference?
 ### Source
@@ -68,7 +68,7 @@ I have always enjoyed the Sherlock Holmes books, movies, and series. It would se
 
 Kruschke introduces two fundamental ideas of Bayesian data analysis. The first is that Bayesian inference is simply divying up probability across possibilities (and then divying it up again as new data rolls in). The second is that these possibilities are parameters in math models (meaning they can be used to accurately model what is happening). He illustrates with a simple image and Sherlock hypothetical.
 
-| ![Kruschke Graph](/Users/brooklynbracken/Documents/Austins_Stuff/bigmonty12.github.io/assets/photos/kruschke_sherlock_graph.jpg) |
+| ![Kruschke Graph](/assets/photos/kruschke_sherlock_graph.jpg) |
 |:--:|
 | *Figure 2.1 from respective paper* |
 
@@ -87,11 +87,11 @@ There is a bit more in this chapter regarding the steps of Bayesian data analysi
 ### Summary
 Quiz Time!!! Dienes provides three scenarios, and tells us to pick how we would respond. They deal with the stopping rule, planned versus post hoc hypotheses, and multiple testing. They are essentially questions those in statistics ask themselves often such as: "If your results are almost significant after your planned number of observations, what do you do?", "How do you proceed if you unexpectedly discover a neat, partial two-way interaction after collecting data in a three-way design?", and "How would you report the results of five possible tests where four are nonsignificant and on is significant at p=0.03?" Each question has three possible answers. These scenarios are a set-up to help determine whether you think about statistics in an orthodox (classical) or subjective (Bayesian) way.
 
-One of the main draws of orthodox statistics is that long-term error rates (false positives and false negatives) are known and can be controlled; however, classical statistics do not usually tell us what we think they're telling us. Many of us would prefer to know *P*(H|D), or the probability of a theory being true given data. Unfortunately, orthodox statistics gives us *P*(D|H), which does not allow us to directly infer *P*(H|D). The fun example in this paper is shark deaths where *P*(dead | head bitten off by shark) is 1, but *P*(head bitten off by shark | dead) is essentially 0.Though related, more information is needed to get from *P*(D|H) to *P*(H|D).
+One of the main draws of orthodox statistics is that long-term error rates (false positives and false negatives) are known and can be controlled; however, classical statistics do not usually tell us what we think they're telling us. Many of us would prefer to know *P(H\|D)*, or the probability of a theory being true given data. Unfortunately, orthodox statistics gives us *P(D\|H)*, which does not allow us to directly infer *P(H\|D)*. The fun example in this paper is shark deaths where *P(dead \| head bitten off by shark)* is 1, but *P(head bitten off by shark \| dead)* is essentially 0.Though related, more information is needed to get from *P(D\|H)* to *P(H\|D)*.
 
 ![Shark](https://ychef.files.bbci.co.uk/624x351/p07k4hnq.jpg)
 
-Dienes spends the next section explaining the likelihood. To reiterate from above, the likelihood is the probability of obtaining the exact data given the hypothesis, or *P*(D|H) (Additionally, the posterior is given by likelihood timex prior). It is important to note that the likelihood is not a *p* value from classical statistics, as a *p* value is the probability of obtaining the data **OR** more extreme data and takes into account decision procedure (see tea example above), such as when to stop collecting data, whether or not a test is post hoc, or the number of tests conducted. These factors do not affect the likelihood, however, and this is the basis of Dienes' argument that Bayesian analysis works best.
+Dienes spends the next section explaining the likelihood. To reiterate from above, the likelihood is the probability of obtaining the exact data given the hypothesis, or *P(D\|H)* (Additionally, the posterior is given by likelihood timex prior). It is important to note that the likelihood is not a *p* value from classical statistics, as a *p* value is the probability of obtaining the data **OR** more extreme data and takes into account decision procedure (see tea example above), such as when to stop collecting data, whether or not a test is post hoc, or the number of tests conducted. These factors do not affect the likelihood, however, and this is the basis of Dienes' argument that Bayesian analysis works best.
 
 Before jumping into analyzing these procedure decisions, it is imperative to first define a Bayes factor. The Bayes factor (Β) is a comparison of two hypotheses. It is the ratio of the likelihoods. If Β is less than 1, it supports the hypothesis represented by the divisor, and if Β is greater than 1, it supports the hypothesis represented by the dividend. Traditionally, Bayes factors above 3 and below one third are considered strong support, though there is no hard and fast cutoff like is often seen with α in classical statistics. One important distinction between a *t* test and Bayes factor is that though *p* values are driven towards zero as number of subjects increases when the null hypothesis is false, *p* values are not driven in any direction when the null hypothesis is true. In contrast, Β is driven larger when the null hypothesis is false, and it is driven to zero when the null hypothesis is true (assuming the null hypothesis is represented by the divisor).
 
