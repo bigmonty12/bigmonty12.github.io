@@ -5,3 +5,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.Rproj.user
+bigmonty12.github.io.Rproj
+.Rhistory
+.ruby-version

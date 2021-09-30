@@ -70,8 +70,8 @@ plugins:
 author:
    name: "Austin Montgomery"
    avatar: "/assets/photos/montgomery_headshot.jpeg"
-   bio: "Former college basketball player. Future physician-scientist."
-   location: "Salt Lake City, UT"
+   bio: "Former college basketball player. Physician-scientist in training."
+   location: "Hershey, PA"
    links:
      - label: "Email"
        icon: "fas fa-fw fa-envelope-square"
