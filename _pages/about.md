@@ -12,4 +12,3 @@ author_profile: true
 
 ---
 ![Austin Montgomery](/assets/photos/basketball_pumped.jpeg)
-*Me, excited about science and sports*
